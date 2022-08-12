@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+  <link rel="stylesheet" href="index.a23e4213.css">
+</head>
+<body>
+    <form action="index.html">
+    <main class="flex justify-center items-center h-screen">
+        <div class="container flex justify-center items-center border h-[96vh] border-black w-[60%]">
+            
+                <div class="source flex justify-center items-center flex-col">
+                    <p class="m-3 w-[90%] ml-2">Select Your Source : <span class=" bg-black"></span> <span class="ml-28"> Google Cloud Storage</span> </p>
+
+                    <p class="m-3 w-[100%] mr-[5.4vw]">Provide a name for pipeline : <span class=" bg-black"></span> <input class="bg-gray-200 px-2 w-72 py-1" type="text" minlength="5"  placeholder="e.g., cust_shop_energy_gkateway001"> </p>
+
+                    <p class="m-3 w-[90%]">GCS project name : <span class=" bg-black"></span> <input class="bg-gray-200 px-2 w-72 py-1" type="text" minlength="5"  placeholder="project-id"> </p>
+
+                    <p class="m-3 w-[90%]">GCS bucket name : <span class=" bg-black"></span> <input class="bg-gray-200 px-2 w-72 py-1" type="text" minlength="5"  placeholder="gs://your-bucket"> </p>
+
+                    <p class="mt-3 w-[90%] mr-32">Input Cloud Storage File(s) : <span class=" bg-black"></span> <input class="bg-gray-200 px-2 w-72 py-1" type="text" minlength="5"  placeholder="GCS location of your files"> </p>
+                    <span class="text-gray-400 text-sm w-72">Example: </span>
+                    <span class="text-gray-400 text-sm w-72">gs://your-bucket/your-files/01.csv</span>
+
+                    <p class="mb-3 w-[90%] ml-6">GCS credentials : <span class=" bg-black"></span> <input class="bg-gray-400 px-2 w-72 py-1" type="text" placeholder=""> </p>
+
+                    <p class="mb-3 w-[90%] ml-[7vw]">Run Every : <span class=" bg-black"></span> <input class="bg-gray-200 px-2 w-72 py-1" type="text" minlength="5"   placeholder="(in minutes)"> </p>
+
+                    <div class="butt w-[40vw] flex justify-center mt-6 items-center">
+                        <button class="bg-blue-400 py-2 mr-2 w-[8vw] text-black">Create </button>
+                        <button class="bg-blue-400 py-2 w-[18vw] mr-36 text-black">Cancel </button>
+                    </div>
+
+                </div>
+            
+        </div>
+    </main>
+</form>
+<script src="/script.js"></script>
+</body>
+</html>
